@@ -11,9 +11,9 @@
 
 ## 📌 Personal Note
 
-This project is personal. I grew up between Ghana and the UK — and I've seen firsthand what economic progress looks like at ground level in the Ashanti Region, and what it looks like in the data. I've also led digital literacy outreach reaching 950+ secondary school students across Ghana, and my MSc dissertation measured energy poverty in UK smart meter data.
+This project is personal. I have led digital literacy outreach reaching 950+ secondary school students across Ghana, and my MSc dissertation applied machine learning to UK smart meter data to study energy poverty.
 
-This analysis bridges those worlds — using public data to tell an honest story about where Ghana has come from, where it is, and what the numbers say about what comes next.
+This analysis uses public World Bank data to look honestly at where Ghana has come from, where it is, and what the indicators suggest about what comes next.
 
 ---
 
@@ -78,27 +78,22 @@ All data is **freely available** — no account required.
 
 ---
 
-## 🔍 Analysis Highlights
+## 🔍 Analysis Focus
+
+Each notebook pulls indicators from the World Bank Open Data API (via `wb_loader.py`). Run them to reproduce the figures; no headline statistics are asserted in this README.
 
 ### 1. GDP & Growth Trajectory
-- Ghana's GDP grew 14× between 2000 and 2022 in nominal terms — but growth has been volatile
-- The 2011 oil boom created a one-off spike; post-oil growth has been more structurally driven
-- Ghana's per capita growth has outpaced Sub-Saharan Africa average in 18 of the last 24 years
+- Long-run GDP and per-capita growth, including volatility and the period around the start of commercial oil production in 2011
+- Comparison of Ghana's growth with regional benchmarks
 
 ### 2. Poverty & Inequality
-- National poverty headcount fell from ~52% (2000) to ~23% (2017) — a significant achievement
-- The North-South inequality gap has narrowed but remains stark
-- Gini coefficient has held stubbornly above 0.40 — growth has not been fully inclusive
+- Poverty headcount and Gini coefficient over time, where World Bank data is available
 
 ### 3. Digital Financial Inclusion
-- Ghana's mobile money transaction volume grew over 1,000% between 2012 and 2022
-- Internet penetration reached ~60% by 2023 — but urban-rural divide remains wide
-- Formal bank account ownership doubled in a decade yet 40%+ of adults remain unbanked
+- Internet use and account ownership indicators available through the World Bank API
 
 ### 4. Energy Access & Development
-- National electrification rate crossed 80% in the late 2010s — ahead of most West African peers
-- Rural electrification still lags urban by 30+ percentage points
-- Energy access improvements correlate strongly with school enrolment and health outcomes
+- National electrification and the urban-rural access gap
 
 ---
 
@@ -174,7 +169,7 @@ jupyter lab
 
 **Papa Kwadwo Bona Owusu**  
 Data Scientist | ML Engineer  
-Co-Founder & CEO, DigiTech Edge Solutions  
+Founder & CEO, DigiTech Edge Solutions  
 MSc Applied AI & Data Science | MSc Business Analytics  
 
 
